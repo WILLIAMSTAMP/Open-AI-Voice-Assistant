@@ -46,7 +46,7 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
 
 ### Step 1: Clone the Repository
 
-\```bash
+\```
 git clone https://github.com/nova-ai-assistant/nova.git
 \```
 
@@ -54,7 +54,7 @@ git clone https://github.com/nova-ai-assistant/nova.git
 
 Navigate to both the server and client folders and run:
 
-\```bash
+\```
 npm install
 \```
 
@@ -62,7 +62,7 @@ npm install
 
 The application comes with a \`.env\` file containing:
 
-\```env
+\```
 OPENAI_API_KEY="YOUR_OPENAI_API_KEY_HERE"
 \```
 
