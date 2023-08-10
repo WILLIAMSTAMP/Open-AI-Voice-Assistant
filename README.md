@@ -36,7 +36,7 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
 5. **Configure Application:** The connection properties are already defined in the code with the following details:
    - **Host:** "localhost"
    - **User:** "root"
-   - **Password:** "" (empty)
+   - **Password:** "" (YOUR_PASSWORD)
    - **Database:** "nova"
    - **Connection Limit:** 10
 
