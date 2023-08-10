@@ -47,7 +47,7 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
 ### Step 1: Clone the Repository
 
 \```
-git clone https://github.com/nova-ai-assistant/nova.git
+git clone (https://github.com/WILLIAMSTAMP/Open-AI-Voice-Assistant.git)
 \```
 
 ### Step 2: Install Dependencies
