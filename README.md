@@ -36,7 +36,7 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
   - **Connection Name:** Name your connection (e.g., "NovaDB").
   - **Hostname:** "localhost" (as used in the code).
   - **Port:** The default MySQL port is 3306.
-  - **Username & Password:** Use "root" as the username and leave the password field empty (YOUR_PASSWORD).
+  - **Username & Password:** Use "root" as the username and user your password.
   - **Create the Database:** Execute the following SQL command to create the Nova database:
     ```sql
     CREATE DATABASE nova;
@@ -46,7 +46,7 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
   - **Configure Application:** The connection properties are already defined in the code with the following details:
     - **Host:** "localhost"
     - **User:** "root"
-    - **Password:** "" (empty)
+    - **Password:** "YOUR PASSWORD" 
     - **Database:** "nova"
     - **Connection Limit:** 10
     Ensure that these details are consistent with your database setup.
