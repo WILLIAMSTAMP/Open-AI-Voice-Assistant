@@ -137,7 +137,7 @@ From the server folder, run:
 \```
 node server
 
-NOTE: you will get this error when running server before you register a user. 
+NOTE: You will get this error below when running server. This is due to a misconfiguration in session handling, leading to an attempt to access an undefined or null session when there is no user loggen in.
 
 (base) PS C:\Users\user\Desktop\Open-AI-Voice-Assistant\Server> node server
 Bot data preloaded successfully
