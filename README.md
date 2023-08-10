@@ -42,8 +42,6 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
 
    Ensure that these details are consistent with your database setup.
 
-
-
 ## Getting Started
 
 ### Step 1: Clone the Repository
