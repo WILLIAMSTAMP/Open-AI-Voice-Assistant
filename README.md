@@ -137,7 +137,7 @@ From the server folder, run:
 \```
 node server
 
-NOTE: you will get this error when running server before you register a user.
+NOTE: you will get this error when running server before you register a user. \n
 (base) PS C:\Users\William\Desktop\Open-AI-Voice-Assistant\Server> node server
 Bot data preloaded successfully
 Server is running on http://localhost:3001
