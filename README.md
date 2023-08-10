@@ -136,6 +136,18 @@ From the server folder, run:
 
 \```
 node server
+
+NOTE: you will get this error when running server before you register a user.
+(base) PS C:\Users\William\Desktop\Open-AI-Voice-Assistant\Server> node server
+Bot data preloaded successfully
+Server is running on http://localhost:3001
+a user connected: undefined
+Error reloading session: Error: failed to load session
+    at C:\Users\William\Desktop\Open-AI-Voice-Assistant\Server\node_modules\express-session\session\session.js:94:26
+    at C:\Users\William\Desktop\Open-AI-Voice-Assistant\Server\node_modules\express-mysql-session\index.js:435:38
+
+Just create a new user and log in after running client.  
+
 \```
 
 ### Step 6: Access Nova's Web Interface
