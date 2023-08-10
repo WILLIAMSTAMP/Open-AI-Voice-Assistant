@@ -1,4 +1,4 @@
-# Open-AI-Voice-Assistant# Nova - Your AI-Powered Virtual Assistant
+Nova - Your AI+Voice Virtual Assistant
 ![Screenshot 2023-06-25 011940](https://github.com/WILLIAMSTAMP/Open-AI-Voice-Assistant/assets/100212618/937c22b4-3c3b-4993-8aa7-f72e09145e96)
 
 
