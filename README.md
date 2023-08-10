@@ -139,7 +139,7 @@ node server
 
 NOTE: you will get this error when running server before you register a user. 
 
-(base) PS C:\Users\William\Desktop\Open-AI-Voice-Assistant\Server> node server
+(base) PS C:\Users\user\Desktop\Open-AI-Voice-Assistant\Server> node server
 Bot data preloaded successfully
 Server is running on http://localhost:3001
 a user connected: undefined
