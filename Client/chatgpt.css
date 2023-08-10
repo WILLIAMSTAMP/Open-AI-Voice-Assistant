@@ -1,0 +1,203 @@
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #213547;
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 320px;
+}
+
+.cs-message-input__content-editor-wrapper,
+.cs-message-input__content-editor {
+  background-color: #63bff4 !important;
+}
+
+.cs-message-input__content-editor-wrapper {
+  margin-left: 0.5rem !important;
+}
+.user-message .cs-message__html-content {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.bot-message .cs-message__html-content {
+  background-color: green !important;
+  color: white !important;
+}
+
+.cs-main-container {
+  border: 1px solid #63bff4 !important;
+  border-radius: 10px !important;
+}
+
+.cs-chat-container .cs-message-input {
+  border-top: solid 1px #63bff4 !important;
+  border-right: solid 0px #63bff4 !important;
+  border-bottom: solid 0px #63bff4 !important;
+  border-left: solid 0px #63bff4 !important;
+}
+
+.cs-message__content {
+  margin-top: 5px !important;
+  background-color: #63bff4 !important;
+}
+
+.cs-message--outgoing .cs-message__content {
+  background-color: #007BFF; /* Blue */
+}
+
+.cs-message--incoming .cs-message__content {
+  background-color: #28A745; /* Green */
+}
+
+.cs-message-input {
+  background-color: var(--body_background_color) !important;
+}
+
+.cs-button > svg {
+  color: #63bff4 !important;
+}
+
+.cs-button--attachment {
+  display: none !important;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  min-width: 320px;
+}
+
+.gpt_container {
+  max-width: 90%;
+  width: 90%;
+  padding: 2vh;
+  background-color: #fcfcfc;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  color: #213547;
+   position: relative;
+}
+
+.content .text-content {
+  width: 100%;
+  height: 80vh;
+}
+
+.content .text-content .title {
+  font-size: 2.5vh;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  padding-left: 1rem;
+}
+.logout-button-container {
+  position: absolute; /* Position the container absolutely within the parent */
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.chatgpt {
+  height: 80%;
+  border: 1px solid #63bff4;
+  padding: 0.8rem;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.message {
+  width: 100%;
+  height: 93%;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Global styles */
+.mic-button-container {
+  position: fixed;
+  bottom: 1vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100; /* Ensures the button is above other elements */
+}
+
+
+.cs-voice-input-button {
+  font-size: 3vh; /* Adjust as needed */
+  padding: 0.5vh; /* Adjust as needed */
+  width: 10vh; /* Adjust as needed */
+}
+/* For tablets: */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  /* Your styles for tablets go here */
+  .main {
+    width: 95%;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .message {
+    flex-grow: 1; /* This will allow the message list to take up the remaining space */
+    overflow-y: auto; /* This will add scroll if content exceeds the space */
+  }
+
+  /* Other styles... */
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 767px) {
+  /* Your styles for mobile phones go here */
+  .main {
+    width: 100%;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .message {
+    flex-grow: 1; /* This will allow the message list to take up the remaining space */
+    overflow-y: auto; /* This will add scroll if content exceeds the space */
+  }
+
+  .content .text-content .title {
+    font-size: 3vh; /* Increase the font size for mobile */
+  }
+
+
+  /* Other styles... */
+}
