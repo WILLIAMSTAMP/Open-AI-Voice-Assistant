@@ -59,21 +59,21 @@ Before starting, ensure that you have Node.js installed on your system. If not, 
 
 ### Step 1: Clone the Repository
 
-\```bash
+\```
 git clone https://github.com/WILLIAMSTAMP/Open-AI-Voice-Assistant.git
 \```
 
 ### Step 2: Install Dependencies
 Navigate to both the server and client folders and run:
 
-\```bash
+\```
 npm install
 \```
 
 ### Step 3: Configure OpenAI API Key
 The application comes with a `.env` file containing:
 
-\```env
+\```
 OPENAI_API_KEY="YOUR_OPENAI_API_KEY_HERE"
 \```
 
@@ -82,21 +82,21 @@ Replace the placeholder with your own OpenAI API key.
 ### Step 4: Configure Google Text-to-Speech API
 Place the Google Cloud Text-to-Speech API credentials `.json` file in the root of the server folder. Then, update line 311 of the `server.js` code:
 
-\```javascript
+\```
 const serviceAccount = require('YOUR_API_CREDENTIALS_PATH.json');
 \```
 
 ### Step 5: Run the Nova Server
 From the server folder, run:
 
-\```bash
+\```
 node server
 \```
 
 ### Step 6: Access Nova's Web Interface
 Open your browser and navigate to:
 
-\```url
+\```
 http://localhost:5173/OpenAI-ChatBot/register
 \```
 and register a new user.
