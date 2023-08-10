@@ -42,7 +42,7 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
     CREATE DATABASE nova;
     USE nova;
     ```
-  - **Create Tables:** Create the necessary tables by executing the SQL commands provided in the `database.sql` file in the repository.
+  - **Create Tables:** The necessary tables are automatically created by the server code. Refer to `server.js` for the database setup.
   - **Configure Application:** The connection properties are already defined in the code with the following details:
     - **Host:** "localhost"
     - **User:** "root"
@@ -112,5 +112,4 @@ Nova is released under the MIT License. Feel free to use, modify, and distribute
 ## Contact
 
 Have questions or feedback? Contact us at nova-support@example.com or join our Discord community at discord.gg/nova. We'd love to hear from you!
-
 
