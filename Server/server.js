@@ -39,8 +39,8 @@ const options = {
   host: 'localhost',
   port: 3306,
   user: 'root',
-  password: 'Seedweed1267!',
-  database: 'chattest'
+  password: 'YOUR_PASSWORD_HERE',
+  database: 'nova'
 };
 // session store
 const sessionStore = new MySQLStore(options);
