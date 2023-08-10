@@ -13,6 +13,27 @@ Nova is an innovative AI-powered virtual assistant that aims to revolutionize th
 - **Intuitive Voice Commands:** Control your devices, schedule appointments, set reminders, and more using simple voice commands (coming soon).
 - **Seamless Integration:** Nova seamlessly integrates with popular platforms and services, making it a versatile assistant for all your needs (coming soon).
 
+## Personalized Conversational Experience with Nova
+
+Nova is designed to offer a highly personalized and engaging conversational experience. By recording users' conversations and remembering details about the user and the context of their interactions, Nova tailors its responses and support to individual preferences and needs.
+
+### Conversation Summaries
+
+After each session, when the user logs out, Nova creates a summary of the conversation. This summary includes key points, topics discussed, user preferences, and other contextually relevant information. By maintaining a record of these summaries, Nova builds a continuous understanding of the user's interactions and needs over time.
+
+These conversation summaries enable Nova to:
+
+- **Provide Contextual Support:** Nova can reference previous conversations to offer more relevant and personalized assistance.
+- **Learn and Adapt:** By analyzing conversation summaries, Nova learns from the user's behavior and preferences to continually improve its support.
+- **Enhance User Engagement:** By recognizing the user's history and preferences, Nova fosters a more engaging and interactive experience.
+
+### Privacy Considerations
+
+Nova's conversation recording and summarization feature is built with privacy in mind. All conversations are handled securely, and users have control over their data. For more details on privacy and data handling, please refer to the [Privacy Policy](PRIVACY_POLICY.md).
+
+By utilizing conversation summaries, Nova aims to unlock a new level of productivity and convenience, making it a truly intelligent and adaptive virtual assistant that grows with you.
+
+
 ## Database Setup
 
 To set up the SQL database for Nova, follow these steps using SQL Workbench:
