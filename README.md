@@ -72,7 +72,7 @@ Replace the placeholder with your own OpenAI API key.
 
 Place the Google Cloud Text-to-Speech API credentials \`.json\` file in the root of the server folder. Then, update line 311 of the \`server.js\` code:
 
-\```javascript
+\```
 const serviceAccount = require('YOUR_API_CREDENTIALS_PATH.json');
 \```
 
@@ -80,7 +80,7 @@ const serviceAccount = require('YOUR_API_CREDENTIALS_PATH.json');
 
 From the server folder, run:
 
-\```bash
+\```
 npm run start-server
 \```
 
@@ -88,8 +88,8 @@ npm run start-server
 
 Open your browser and navigate to:
 
-\```url
-http://localhost:3000
+\```
+(http://localhost:5173/OpenAI-ChatBot/register) and register a new user
 \```
 
 ## Contributing
