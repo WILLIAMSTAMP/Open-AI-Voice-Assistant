@@ -42,11 +42,11 @@ To set up the SQL database for Nova, follow these steps using SQL Workbench:
     CREATE DATABASE nova;
     USE nova;
     ```
-  - **Create Tables:** The necessary tables are automatically created by the server code. Refer to `server.js` for the database setup.
+  - **Create Tables:** The necessary tables are automatically created by the server code. Refer to `server.js` for the database setup(line 38 - 44)
   - **Configure Application:** The connection properties are already defined in the code with the following details:
     - **Host:** "localhost"
     - **User:** "root"
-    - **Password:** "YOUR PASSWORD" (Also update password on line 42 in server.js
+    - **Password:** "YOUR PASSWORD" (Also update password on line 42 in server.js)
     - **Database:** "nova"
     - **Connection Limit:** 10
     Ensure that these details are consistent with your database setup.
