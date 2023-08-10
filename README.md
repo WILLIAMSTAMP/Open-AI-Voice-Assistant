@@ -1,5 +1,5 @@
 # Open-AI-Voice-Assistant# Nova - Your AI-Powered Virtual Assistant
-![Nova Logo](path_t![Screenshot 2023-06-25 011940](https://github.com/WILLIAMSTAMP/Open-AI-Voice-Assistant/assets/100212618/937c22b4-3c3b-4993-8aa7-f72e09145e96)
+Screenshot 2023-06-25 011940](https://github.com/WILLIAMSTAMP/Open-AI-Voice-Assistant/assets/100212618/937c22b4-3c3b-4993-8aa7-f72e09145e96)
 o_logo)
 
 Nova is an innovative AI-powered virtual assistant that aims to revolutionize the way we interact with technology. With advanced natural language processing capabilities and a friendly personality, Nova is here to simplify your life and provide personalized support through verbal communication.
