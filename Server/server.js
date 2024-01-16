@@ -1,27 +1,15 @@
-// Importing Express.js framework
 const express = require('express');
-// Importing HTTP module
 const http = require('http');
-// Importing Socket.io for real-time communication
 const { Server } = require('socket.io');
-// Importing CORS middleware
 const cors = require('cors');
-// Importing Google Text-to-Speech library
 const textToSpeech = require('@google-cloud/text-to-speech');
-// Importing MySQL promise-based library
 const mysql = require('mysql2/promise');
-// Importing Express session middleware
 const session = require('express-session');
-// Importing Passport.js for authentication
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-// Importing bcrypt for password hashing
 const bcrypt = require('bcrypt');
-// Importing node-fetch for making HTTP requests
 const fetch = require('node-fetch');
-// Importing path module for working with file paths
 const path = require('path');
-// const sessionMiddleware = require('./sessionMiddleware');
 const crypto = require('crypto');
 const secretKey = crypto.randomBytes(32).toString('hex');
 const MySQLStore = require('express-mysql-session')(session);
