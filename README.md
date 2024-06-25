@@ -6,7 +6,7 @@ Nova is an innovative AI-powered virtual assistant that aims to revolutionize th
 
 - **Conversational Interface:** Engage in natural, human-like conversations with Nova.
 - **Personalized Assistance:** Nova adapts to your preferences, learns from your interactions, and tailors its responses to meet your needs.
-- **Task Automation:** Delegate repetitive tasks to Nova, allowing you to focus on more important matters.
+- **Task Automation:** Delegate repetitive tasks to Nova, allowing you to focus on more important matters.(coming soon).
 - **Knowledge Base:** Tap into Nova's vast knowledge base for instant access to information on various topics.
 - **Intuitive Voice Commands:** Control your devices, schedule appointments, set reminders, and more using simple voice commands (coming soon).
 - **Seamless Integration:** Nova seamlessly integrates with popular platforms and services, making it a versatile assistant for all your needs (coming soon).
